@@ -25,3 +25,4 @@ hs_err_pid*
 
 # maven
 pizza-backend/target/
+pizza-backend/.profiler/
