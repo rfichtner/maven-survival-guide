@@ -20,7 +20,9 @@ Code and walkthrough for the talk "Apache Maven survival guide “Bring it on! -
  1. specify a version for all plugins in your build
  2. check if you caught them all with
 	 `mvn versions:display-plugin-updates`
-> **Note:** [Maven 3.8 will break your bulid if you have non-https URLs for repos](https://maven.apache.org/docs/3.8.1/release-notes.html#how-to-fix-when-i-get-a-http-repository-blocked)
+> **Note 1:** [Maven 3.8 will break your bulid if you have non-https URLs for repos](https://maven.apache.org/docs/3.8.1/release-notes.html#how-to-fix-when-i-get-a-http-repository-blocked)
+
+> **Note 2:** You can use [Maven Wrapper](https://maven.apache.org/wrapper/) to bring your own Maven Version to build your project
 
 ### Level 2: add some dependencies and check if really need them
 
