@@ -48,6 +48,7 @@ Code and walkthrough for the talk "Apache Maven survival guide “Bring it on! -
     `mvn clean install -Dprofile`
     `mvn verify -Dprofile`
  3. kill stale resources
+    `mvn verify -Dprofile -X`
 
 ### Level 5: paperwork 
    
