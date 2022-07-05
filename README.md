@@ -44,12 +44,13 @@ Code and walkthrough for the talk "Apache Maven survival guide “Bring it on! -
 
 ### Level 4: save time, save money and the planet earth
 
- 1. add the maven-profiler extension https://github.com/jcgay/maven-profiler
- 2. find out where you can save time, money and the planet earth
+ 1. use a current Java and Maven version for your builds: https://maven.soebes.team/scenario-1.html
+ 2. add the maven-profiler extension https://github.com/jcgay/maven-profiler
+ 3. find out where you can save time, money and the planet earth
     `mvn clean verify -Dprofile`
     `mvn clean install -Dprofile`
     `mvn verify -Dprofile`
- 3. kill stale resources
+ 4. kill stale resources
     `mvn verify -Dprofile -X`
 
 ### Level 5: paperwork 
