@@ -47,9 +47,18 @@ Code and walkthrough for the talk "Apache Maven survival guide “Bring it on! -
  1. use a current Java and Maven version for your builds: https://maven.soebes.team/scenario-1.html
  2. add the maven-profiler extension https://github.com/jcgay/maven-profiler
  3. find out where you can save time, money and the planet earth
-    `mvn clean verify -Dprofile`
-    `mvn clean install -Dprofile`
-    `mvn verify -Dprofile`
+    3.1. What (plugins) are executed in which phase?
+        
+		`mvn buildplan:list-phase`
+		
+    3.2. Profile different commands and see the differences: 
+    	
+		`mvn clean verify -Dprofile`
+     	
+		`mvn clean install -Dprofile`
+    	
+		`mvn verify -Dprofile`
+		
  4. kill stale resources
     `mvn verify -Dprofile -X`
 
