@@ -6,6 +6,8 @@ Code and walkthrough for the talk "Apache Maven survival guide “Bring it on! -
 ### Level 0: verify the project  
 Make sure you can build the project
     `mvn verify`  
+Have a look and see what your effective POM looks like:
+    `mvn help:effective-pom`
     
 ### Level 1: add some tests and make them run
 
