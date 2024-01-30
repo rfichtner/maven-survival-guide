@@ -26,9 +26,10 @@ pause
 git checkout 377ee7f90884d6acecebbb6fa501f39f5b2ecad8 --force
 git log -1 --pretty=format:"%s"
 pause
-git checkout bcdabf8bec464b5fa0cdcbe8b3f5b6efbc1a784b --force
-git log -1 --pretty=format:"%s"
+Invoke-Item .\pizza-backend\target\site\dependencies.html
+start-sleep 1
+Invoke-Item .\pizza-backend\target\site\third-party-report.html
 pause
-git checkout Louisiana --force
+git checkout jfokus --force
 git log -1
 pause
