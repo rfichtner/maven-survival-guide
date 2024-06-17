@@ -1,6 +1,7 @@
 package com.xdevsoftware;
 
 import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,7 +25,7 @@ public class Demo
 		// Initialize a storage manager ("the database") with purely defaults.
 		final EmbeddedStorageManager storage = EmbeddedStorage.start(runs);
 		
-		runs.add(LocalDateTime.now());
+		runs.add(LocalDateTime.now(ZoneId.of("UTC")));
 		runs.stream().forEach(System.out::println);
 		
 		// store
