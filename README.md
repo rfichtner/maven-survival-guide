@@ -13,7 +13,7 @@ Have a look and see what your effective POM looks like:
 
  1. add some dependencies - because your code needs them?
  2. check for used / unused dependencies
-	`mvn org.apache.maven.plugins:maven-dependency-plugin:3.3.0:analyze`
+	`mvn dependency:analyze`
  3. check the dependency tree to understand what is happening
 	 `mvn dependency:tree` 
  4. marie kondo your dependencies - also check if your dependencies "spark joy"
