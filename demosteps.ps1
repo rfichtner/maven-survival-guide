@@ -30,6 +30,6 @@ Invoke-Item .\pizza-backend\target\site\dependencies.html
 start-sleep 1
 Invoke-Item .\pizza-backend\target\site\third-party-report.html
 pause
-git checkout jfokus --force
+git checkout 2024-KCDC --force
 git log -1
 pause
