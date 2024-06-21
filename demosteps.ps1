@@ -26,6 +26,15 @@ pause
 git checkout 377ee7f90884d6acecebbb6fa501f39f5b2ecad8 --force
 git log -1 --pretty=format:"%s"
 pause
+git checkout 797d31c3a1cf73cedfb6f6e8d48c41cb85460618 --force
+git log -1 --pretty=format:"%s"
+pause
+git checkout 141ca49f532f9f744ecd304c7594b0867e61014f --force
+git log -1 --pretty=format:"%s"
+pause
+
+
+
 Invoke-Item .\pizza-backend\target\site\dependencies.html
 start-sleep 1
 Invoke-Item .\pizza-backend\target\site\third-party-report.html
