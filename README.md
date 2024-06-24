@@ -62,4 +62,10 @@ Have a look and see what your effective POM looks like:
  4.	fix forbidden calls	
  5. verify your project `mvn verify`
 
-### Level 5: modernize
+### Level 5: paperwork 
+   
+ 1. declare a license for your project
+ 2. check if you are going to jail and why (legal stuff / wasting bandwidth)  
+	`mvn project-info-reports:dependencies`  
+	`mvn license:third-party-report`
+	
