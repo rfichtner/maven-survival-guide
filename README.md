@@ -98,34 +98,40 @@ Code and walkthrough for the talk "Apache Maven survival guide “Bring it on! -
 		`mvn verify`  
 		`mvn install`  
 		
- 4. find and kill stale resources
+4. find and kill stale resources
 
-    `mvn verify -X`
+   `mvn verify -X`
 
 ### Level 5: check for forbidden APIs
 
- 1. add the [Policeman's Forbidden API checker](https://github.com/policeman-tools/forbidden-apis/wiki/MavenUsage)
+1. add the [Policeman's Forbidden API checker](https://github.com/policeman-tools/forbidden-apis/wiki/MavenUsage)
 
- 2. choose whats forbidden in your project
+2. choose whats forbidden in your project
 
- 3. verify your project 
+3. verify your project 
  
- 	`mvn verify`
+	`mvn verify`
 
- 4.	fix forbidden calls	
+4. fix forbidden calls	
 
- 5. verify your project 
+5. verify your project 
 
- 	`mvn verify`
+	`mvn verify`
 
 ### Level 6: paperwork 
    
- 1. declare a license for your project
+1. declare a license for your project
 
- 2. check if you are going to jail and why (legal stuff / wasting bandwidth)
+2. check if you are going to jail and why (legal stuff / wasting bandwidth)
 
 	`mvn project-info-reports:dependencies` 
 
 	`mvn license:third-party-report`
+
+3. understand what the results mean for your project: 
+
+	* target/reports/dependencies.html
+	* target/site/third-party-report.html
+
 	
 

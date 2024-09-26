@@ -35,7 +35,7 @@ pause
 
 
 
-Invoke-Item .\pizza-backend\target\site\dependencies.html
+Invoke-Item .\pizza-backend\target\reports\dependencies.html
 start-sleep 1
 Invoke-Item .\pizza-backend\target\site\third-party-report.html
 pause
