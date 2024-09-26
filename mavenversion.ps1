@@ -1,0 +1,1 @@
+[System.Environment]::SetEnvironmentVariable("MAVEN_HOME", "C:\tools\apache-maven-3.6.3", [System.EnvironmentVariableTarget]::Machine)
