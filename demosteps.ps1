@@ -43,9 +43,9 @@ git checkout 802892b3d5ec9d00fd754be9c8bac26e13a692b4 --force
 git log -1 --pretty=format:"%s"
 pause
 cls
-Invoke-Item .\pizza-backend\target\site\dependencies.html
+Invoke-Item .\pizza-backend\target\reports\dependencies.html
 start-sleep 1
-Invoke-Item .\pizza-backend\target\site\third-party-report.html
+Invoke-Item .\pizza-backend\target\reports\third-party-report.html
 pause
 cls
 git checkout JavaOne25 --force
