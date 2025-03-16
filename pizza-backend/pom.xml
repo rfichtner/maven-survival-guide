@@ -94,6 +94,27 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+				<groupId>software.xdev</groupId>
+				<artifactId>music-maven-plugin</artifactId>
+				<version>1.0.2</version>
+				<executions>
+					<execution>
+						<phase>validate</phase>
+						<goals>
+							<goal>music</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<sources>
+						<musicSource>
+							<uri>https://incompetech.com/music/royalty-free/mp3-royaltyfree/Corncob.mp3</uri>
+						</musicSource>
+					</sources>
+					<shuffle>true</shuffle>
+				</configuration>	
+			</plugin>
 		</plugins>
 	</build>
 	
