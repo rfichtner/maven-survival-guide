@@ -4,8 +4,12 @@ Code and walkthrough for the talk "Apache Maven survival guide “Bring it on! -
 ## Walkthrough
 
 ### Level 0: verify the project  
+Check the Maven and Java version on your machine
+    `mvn -version`
+
 Make sure you can build the project
     `mvn verify`  
+
 Have a look and see what your effective POM looks like:
     `mvn help:effective-pom`
     
